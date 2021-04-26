@@ -1,0 +1,10 @@
+version: "3"
+services:
+  oracle:
+    image: oracle/database:11.2.0.2-xe
+    shm_size: 1g
+    environment: 
+      - ORACLE_PWD=secret
+    ports:
+      - "1521:1521"
+      - "8080:8080"
