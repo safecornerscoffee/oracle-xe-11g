@@ -1,0 +1,1 @@
+docker build --force-rm=true --no-cache=true --build-arg DB_EDITION=xe -t oracle/database:11.2.0.2-xe -f Dockerfile.xe .
