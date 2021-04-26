@@ -1,3 +1,5 @@
+oradata/*
+
 *.zip
 
 .DS_Store
